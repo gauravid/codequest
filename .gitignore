@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code and other IDE config files
+.vscode/
+.idea/
+
+# Environment variables or secret config files
+.env
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# Log and database files
+*.log
+*.sqlite3
+
+# Package manager lock files
+Pipfile.lock
+poetry.lock
+
+# Ignore compiled Flask assets
+instance/
+.webassets-cache/
+
+# Flask’s built-in debug files
+flask_session/
